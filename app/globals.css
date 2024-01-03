@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- body{
-  background-color: rgb(17, 119, 209);
- }
+@layer base{
+    body {
+        color: aliceblue;
+        background-color: rgb(17, 119, 209);
+    }  
+} 
